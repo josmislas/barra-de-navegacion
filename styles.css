@@ -1,0 +1,93 @@
+body {
+    font-family: 'Paprika', cursive;
+    background-image: url(/images/background/thumb-1920-789452.jpg);
+    background-size: 100vmax;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(37, 37, 65);
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-content:center;
+    font-size: .8em;
+}
+
+.navbar > .menu {
+    display: none;
+}
+
+.navbar > .logo a {
+    margin: 0 20px ;
+    height: 70px;
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: silver;
+}
+
+.navbar > .logo:hover {
+    background-color: rgb(30, 30, 53);
+}
+
+.navbar > .link {
+    width: 15%;
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+    background-color: black;
+}
+
+.navbar > .link a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: silver;
+}
+
+.navbar > .link:hover {
+    background-color: silver;
+}
+
+.navbar > .link:hover a {
+    color: black;
+}
+
+.navbar > .right {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+}
+
+.navbar > .right > .link-right {
+    width: 35%;
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+    background-color: black;
+}
+
+.navbar > .right > .link-right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: silver;
+}
+
+.navbar > .right > .link-right:hover {
+    background-color: silver;
+}
+
+.navbar > .right > .link-right:hover a {
+    color: black;
+}
